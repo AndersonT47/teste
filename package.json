@@ -1,0 +1,53 @@
+{
+  "name": "snb-conductor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:development": "cp ./envs/.env.development .env && yarn build",
+    "build:staging": "cp ./envs/.env.staging .env && yarn build",
+    "build:production": "cp ./envs/.env.production .env && yarn build",
+    "stage:": "cp ./envs/.env.stage .env && yarn build && yarn start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@material-ui/styles": "4.11.5",
+    "@mui/icons-material": "5.11.11",
+    "@mui/material": "5.11.11",
+    "@mui/styled-engine-sc": "5.11.11",
+    "@tanstack/react-query": "^4.29.5",
+    "@types/axios": "^0.14.0",
+    "@types/node": "18.14.4",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@types/react-lottie": "^1.2.6",
+    "@types/react-router-dom": "^5.3.3",
+    "antd": "5.3.1",
+    "axios": "^1.4.0",
+    "dotenv-webpack": "^8.0.1",
+    "env-cmd": "^10.1.0",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.3",
+    "js-cookie": "^3.0.5",
+    "next": "13.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-lottie": "^1.2.3",
+    "react-router-dom": "^6.11.2",
+    "react-tabs": "^6.0.0",
+    "styled-components": "^5.3.8",
+    "typescript": "4.9.5",
+    "zustand": "^4.3.5"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.62",
+    "@swc/core": "^1.3.38",
+    "@types/js-cookie": "^3.0.3",
+    "@types/styled-components": "^5.1.26",
+    "babel-plugin-styled-components": "^2.0.7"
+  }
+}
