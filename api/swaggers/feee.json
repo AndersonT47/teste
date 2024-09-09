@@ -1,0 +1,784 @@
+{
+  "code": 200,
+  "data": {
+    "customerName": "NPK TRADING S.A.",
+    "customerAddress": "NPK TRADING S.A.",
+    "customerAccountOfficer": "571 Marcelo Fontanelli       BR 30",
+    "cif": "NAA0010",
+    "fees": [
+      {
+        "feeType": "Customer Fees",
+        "feeGroups": [
+          {
+            "visible": true,
+            "name": "Standard Fees",
+            "code": 1,
+            "fields": [
+              {
+                "hasChanged": false,
+                "code": 1,
+                "isStandarOption": true,
+                "isCurrentyClient": false,
+                "isException": false,
+                "name": "Account Maintenance",
+                "defaultValue": "1200",
+                "exceptionOptions": [],
+                "createdAt": "2023-05-20T16:25:31.435Z",
+                "updatedAt": "2023-05-20T16:25:31.435Z",
+                "id": "6468f46eff51aa9d77d849d7"
+              },
+              {
+                "hasChanged": false,
+                "code": 2,
+                "isStandarOption": true,
+                "isCurrentyClient": false,
+                "isException": false,
+                "name": "Hold Mail",
+                "defaultValue": "600",
+                "exceptionOptions": [],
+                "createdAt": "2023-05-20T16:25:31.435Z",
+                "updatedAt": "2023-05-20T16:25:31.435Z",
+                "id": "6468f46eff51aa9d77d849d8"
+              }
+            ],
+            "id": "64850590fdc4f8d83adaf136",
+            "cif": "NAA0010"
+          },
+          {
+            "visible": true,
+            "name": "Client Current Fees",
+            "code": 1,
+            "fields": [
+              {
+                "hasChanged": false,
+                "code": 1,
+                "isStandarOption": false,
+                "isCurrentyClient": true,
+                "isException": false,
+                "name": "Account Maintenance",
+                "defaultValue": "0",
+                "exceptionOptions": [],
+                "createdAt": "2023-05-20T16:25:31.436Z",
+                "updatedAt": "2023-05-20T16:25:31.436Z",
+                "id": "6468f46eff51aa9d77d849dc"
+              },
+              {
+                "hasChanged": false,
+                "code": 2,
+                "isStandarOption": false,
+                "isCurrentyClient": true,
+                "isException": false,
+                "name": "Hold Mail ",
+                "defaultValue": "0",
+                "exceptionOptions": [],
+                "createdAt": "2023-05-20T16:25:31.436Z",
+                "updatedAt": "2023-05-20T16:25:31.436Z",
+                "id": "6468f46eff51aa9d77d849dd"
+              }
+            ],
+            "id": "64850590fdc4f8d83adaf139",
+            "cif": "NAA0010"
+          },
+          {
+            "visible": true,
+            "name": "Exception Request",
+            "code": 1,
+            "fields": [
+              {
+                "hasChanged": false,
+                "code": 1,
+                "isStandarOption": false,
+                "isCurrentyClient": false,
+                "isException": true,
+                "name": "Account Maintenance",
+                "defaultValue": "",
+                "exceptionOptions": [
+                  {
+                    "value": "1200",
+                    "text": "$1200",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d849e2"
+                  },
+                  {
+                    "value": "0",
+                    "text": "Waived",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d849e3"
+                  }
+                ],
+                "createdAt": "2023-05-20T16:25:31.436Z",
+                "updatedAt": "2023-05-20T16:25:31.436Z",
+                "id": "6468f46eff51aa9d77d849e1"
+              },
+              {
+                "hasChanged": false,
+                "code": 2,
+                "isStandarOption": false,
+                "isCurrentyClient": false,
+                "isException": true,
+                "name": "Hold Mail ",
+                "defaultValue": "",
+                "exceptionOptions": [
+                  {
+                    "value": "600",
+                    "text": "$600",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d849e5"
+                  },
+                  {
+                    "value": "0",
+                    "text": "Waived",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d849e6"
+                  }
+                ],
+                "createdAt": "2023-05-20T16:25:31.436Z",
+                "updatedAt": "2023-05-20T16:25:31.436Z",
+                "id": "6468f46eff51aa9d77d849e4"
+              }
+            ],
+            "id": "64850590fdc4f8d83adaf13c",
+            "cif": "NAA0010"
+          }
+        ],
+        "id": "6468f46eff51aa9d77d849ee"
+      },
+      {
+        "feeType": "Bank Account Fees",
+        "feeGroups": [
+          {
+            "name": "Standard Fees",
+            "code": 2,
+            "fields": [
+              {
+                "code": 3,
+                "isStandarOption": true,
+                "isCurrentyClient": false,
+                "isException": false,
+                "name": "Incoming Wire",
+                "defaultValue": "10",
+                "hasChanged": false,
+                "exceptionOptions": [],
+                "_id": "64850590fdc4f8d83adaf19e",
+                "createdAt": "2023-05-20T16:25:31.436Z",
+                "updatedAt": "2023-05-20T16:25:31.436Z"
+              },
+              {
+                "code": 4,
+                "isStandarOption": true,
+                "isCurrentyClient": false,
+                "isException": false,
+                "name": "Outgoing Wire",
+                "defaultValue": "75",
+                "hasChanged": false,
+                "exceptionOptions": [],
+                "_id": "64850590fdc4f8d83adaf19f",
+                "createdAt": "2023-05-20T16:25:31.436Z",
+                "updatedAt": "2023-05-20T16:25:31.436Z"
+              }
+            ],
+            "cif": "NAA0010",
+            "accountNumber": "17226444",
+            "visible": true,
+            "_id": "64850590fdc4f8d83adaf19d"
+          },
+          {
+            "name": "Client Current Fees",
+            "code": 2,
+            "fields": [
+              {
+                "code": 3,
+                "isStandarOption": false,
+                "isCurrentyClient": true,
+                "isException": false,
+                "name": "Incoming Wire",
+                "defaultValue": "0",
+                "hasChanged": false,
+                "exceptionOptions": [],
+                "_id": "64850590fdc4f8d83adaf1a1",
+                "createdAt": "2023-05-20T16:25:31.437Z",
+                "updatedAt": "2023-05-20T16:25:31.437Z"
+              },
+              {
+                "code": 4,
+                "isStandarOption": false,
+                "isCurrentyClient": true,
+                "isException": false,
+                "name": "Outgoing Wire",
+                "defaultValue": "0",
+                "hasChanged": false,
+                "exceptionOptions": [],
+                "_id": "64850590fdc4f8d83adaf1a2",
+                "createdAt": "2023-05-20T16:25:31.437Z",
+                "updatedAt": "2023-05-20T16:25:31.437Z"
+              }
+            ],
+            "cif": "NAA0010",
+            "accountNumber": "17226444",
+            "visible": true,
+            "_id": "64850590fdc4f8d83adaf1a0"
+          },
+          {
+            "name": "Client Current Fees",
+            "code": 2,
+            "fields": [
+              {
+                "code": 3,
+                "isStandarOption": false,
+                "isCurrentyClient": false,
+                "isException": true,
+                "name": "Incoming Wire",
+                "defaultValue": "0",
+                "hasChanged": false,
+                "exceptionOptions": [
+                  {
+                    "value": "10",
+                    "text": "$10",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a07"
+                  },
+                  {
+                    "value": "0",
+                    "text": "Waived",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a08"
+                  }
+                ],
+                "_id": "64850590fdc4f8d83adaf1a4",
+                "createdAt": "2023-05-20T16:25:31.437Z",
+                "updatedAt": "2023-05-20T16:25:31.437Z"
+              },
+              {
+                "code": 4,
+                "isStandarOption": false,
+                "isCurrentyClient": false,
+                "isException": true,
+                "name": "Outgoing Wire",
+                "defaultValue": "0",
+                "hasChanged": false,
+                "exceptionOptions": [
+                  {
+                    "value": "75",
+                    "text": "$75",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a0a"
+                  },
+                  {
+                    "value": "60",
+                    "text": "$60",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a0b"
+                  },
+                  {
+                    "value": "50",
+                    "text": "$50",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a0c"
+                  },
+                  {
+                    "value": "30",
+                    "text": "$30",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a0d"
+                  },
+                  {
+                    "value": "20",
+                    "text": "$20",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a0e"
+                  },
+                  {
+                    "value": "10",
+                    "text": "$10",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a0f"
+                  }
+                ],
+                "_id": "64850590fdc4f8d83adaf1a7",
+                "createdAt": "2023-05-20T16:25:31.437Z",
+                "updatedAt": "2023-05-20T16:25:31.437Z"
+              }
+            ],
+            "cif": "NAA0010",
+            "accountNumber": "17226444",
+            "visible": true,
+            "_id": "64850590fdc4f8d83adaf1a3"
+          }
+        ],
+        "id": "6468f46eff51aa9d77d84a1b"
+      },
+      {
+        "feeType": "Investiment Account Fees",
+        "feeGroups": [
+          {
+            "name": "Standard Fees",
+            "code": 3,
+            "fields": [
+              {
+                "code": 6,
+                "isStandarOption": true,
+                "isCurrentyClient": false,
+                "isException": false,
+                "name": "Safekeeping-Custoty",
+                "defaultValue": "A021",
+                "hasChanged": false,
+                "exceptionOptions": [],
+                "_id": "64850590fdc4f8d83adaf1af",
+                "createdAt": "2023-05-20T16:25:31.437Z",
+                "updatedAt": "2023-05-20T16:25:31.437Z"
+              },
+              {
+                "code": 7,
+                "isStandarOption": true,
+                "isCurrentyClient": false,
+                "isException": false,
+                "name": "Equity and Options Commission",
+                "defaultValue": "E3",
+                "hasChanged": false,
+                "exceptionOptions": [],
+                "_id": "64850590fdc4f8d83adaf1b0",
+                "createdAt": "2023-05-20T16:25:31.438Z",
+                "updatedAt": "2023-05-20T16:25:31.438Z"
+              }
+            ],
+            "cif": "NAA0010",
+            "accountNumber": "20002089",
+            "entityCode": "SNB/284",
+            "visible": true,
+            "_id": "64850590fdc4f8d83adaf1ae"
+          },
+          {
+            "name": "Client Current Fees",
+            "code": 3,
+            "fields": [
+              {
+                "code": 6,
+                "isStandarOption": false,
+                "isCurrentyClient": true,
+                "isException": false,
+                "name": "Safekeeping-Custoty",
+                "defaultValue": "A053",
+                "hasChanged": false,
+                "exceptionOptions": [],
+                "_id": "64850590fdc4f8d83adaf1b2",
+                "createdAt": "2023-05-20T16:25:31.438Z",
+                "updatedAt": "2023-05-20T16:25:31.438Z"
+              },
+              {
+                "code": 7,
+                "isStandarOption": false,
+                "isCurrentyClient": true,
+                "isException": false,
+                "name": "Equity and Options Commission",
+                "defaultValue": "E3",
+                "hasChanged": false,
+                "exceptionOptions": [],
+                "_id": "64850590fdc4f8d83adaf1b3",
+                "createdAt": "2023-05-20T16:25:31.438Z",
+                "updatedAt": "2023-05-20T16:25:31.438Z"
+              }
+            ],
+            "cif": "NAA0010",
+            "accountNumber": "20002089",
+            "entityCode": "SNB/284",
+            "visible": true,
+            "_id": "64850590fdc4f8d83adaf1b1"
+          },
+          {
+            "name": "Exception Request",
+            "code": 3,
+            "fields": [
+              {
+                "code": 6,
+                "isStandarOption": false,
+                "isCurrentyClient": false,
+                "isException": true,
+                "name": "Safekeeping-Custoty",
+                "defaultValue": "0",
+                "hasChanged": false,
+                "exceptionOptions": [
+                  {
+                    "value": "0.50% per year with a minimum of $375.00 per quarter",
+                    "text": "A032",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf15e"
+                  },
+                  {
+                    "value": "0.50% per year with a minimum of $250.00 per quarter",
+                    "text": "A101",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf15f"
+                  },
+                  {
+                    "value": "0.50% per year with a minimum of $125.00 per quarter",
+                    "text": "A102",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf160"
+                  },
+                  {
+                    "value": "0.45% per year with a minimum of $375.00 per quarter",
+                    "text": "A031",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf161"
+                  },
+                  {
+                    "value": "0.45% per year with a minimum of $250.00 per quarter",
+                    "text": "A103",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf162"
+                  },
+                  {
+                    "value": "0.45% per year with a minimum of $125.00 per quarter",
+                    "text": "A104",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf163"
+                  },
+                  {
+                    "value": "0.40% per year with a minimum of $375.00 per quarter",
+                    "text": "A030",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf164"
+                  },
+                  {
+                    "value": "0.40% per year with a minimum of $250.00 per quarter",
+                    "text": "A105",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf165"
+                  },
+                  {
+                    "value": "0.40% per year with a minimum of $125.00 per quarter",
+                    "text": "A106",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf166"
+                  },
+                  {
+                    "value": "0.35% per year with a minimum of $375.00 per quarter",
+                    "text": "A021",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf167"
+                  },
+                  {
+                    "value": "0.35% per year with a minimum of $250.00 per quarter",
+                    "text": "A107",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf168"
+                  },
+                  {
+                    "value": "0.35% per year with a minimum of $125.00 per quarter",
+                    "text": "A108",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf169"
+                  },
+                  {
+                    "value": "0.30% per year with a minimum of $375.00 per quarter",
+                    "text": "A001",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf16a"
+                  },
+                  {
+                    "value": "0.30% per year with a minimum of $250.00 per quarter",
+                    "text": "A109",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf16b"
+                  },
+                  {
+                    "value": "0.30% per year with a minimum of $125.00 per quarter",
+                    "text": "A110",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf16c"
+                  },
+                  {
+                    "value": "0.25% per year with a minimum of $375.00 per quarter",
+                    "text": "A022",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf16d"
+                  },
+                  {
+                    "value": "0.25% per year with a minimum of $250.00 per quarter",
+                    "text": "A068",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf16e"
+                  },
+                  {
+                    "value": "0.25% per year with a minimum of $125.00 per quarter",
+                    "text": "A088",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf16f"
+                  },
+                  {
+                    "value": "0.20% per year with a minimum of $375.00 per quarter",
+                    "text": "A053",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf170"
+                  },
+                  {
+                    "value": "0.20% per year with a minimum of $250.00 per quarter",
+                    "text": "A070",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf171"
+                  },
+                  {
+                    "value": "0.20% per year with a minimum of $125.00 per quarter",
+                    "text": "A111",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf172"
+                  },
+                  {
+                    "value": "0.15% per year with a minimum of $375.00 per quarter",
+                    "text": "A089",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf173"
+                  },
+                  {
+                    "value": "0.15% per year with a minimum of $250.00 per quarter",
+                    "text": "A012",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf174"
+                  },
+                  {
+                    "value": "0.15% per year with a minimum of $125.00 per quarter",
+                    "text": "A073",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf175"
+                  },
+                  {
+                    "value": "0.10% per year with a minimum of $375.00 per quarter",
+                    "text": "A071",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf176"
+                  },
+                  {
+                    "value": "0.10% per year with a minimum of $250.00 per quarter",
+                    "text": "A008",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf177"
+                  },
+                  {
+                    "value": "0.10% per year with a minimum of $125.00 per quarter",
+                    "text": "A112",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf178"
+                  },
+                  {
+                    "value": "0.05% per year with a minimum of $375.00 per quarter",
+                    "text": "A113",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf179"
+                  },
+                  {
+                    "value": "0.05% per year with a minimum of $250.00 per quarter",
+                    "text": "A009",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf17a"
+                  },
+                  {
+                    "value": "0.05% per year with a minimum of $125.00 per quarter",
+                    "text": "A114",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf17b"
+                  },
+                  {
+                    "value": "0.50% per year with a minimum of $100.00 per quarter",
+                    "text": "A115",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf17c"
+                  },
+                  {
+                    "value": "0.45% per year with a minimum of $100.00 per quarter",
+                    "text": "A116",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf17d"
+                  },
+                  {
+                    "value": "0.30% per year with a minimum of $100.00 per quarter",
+                    "text": "A117",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf17e"
+                  },
+                  {
+                    "value": "0.25% per year with a minimum of $100.00 per quarter",
+                    "text": "A118",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf17f"
+                  },
+                  {
+                    "value": "0.20% per year with a minimum of $100.00 per quarter",
+                    "text": "A119",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf180"
+                  },
+                  {
+                    "value": "0.15% per year with a minimum of $100.00 per quarter",
+                    "text": "A025",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf181"
+                  },
+                  {
+                    "value": "0.10% per year with a minimum of $100.00 per quarter",
+                    "text": "A023",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf182"
+                  },
+                  {
+                    "value": "0.05% per year with a minimum of $100.00 per quarter",
+                    "text": "A120",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf183"
+                  },
+                  {
+                    "value": "0.50% per year with a minimum of $75.00 per quarter",
+                    "text": "A121",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf184"
+                  },
+                  {
+                    "value": "0.45% per year with a minimum of $75.00 per quarter",
+                    "text": "A122",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf185"
+                  },
+                  {
+                    "value": "0.30% per year with a minimum of $75.00 per quarter",
+                    "text": "A123",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf186"
+                  },
+                  {
+                    "value": "0.25% per year with a minimum of $75.00 per quarter",
+                    "text": "A124",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf187"
+                  },
+                  {
+                    "value": "0.20% per year with a minimum of $75.00 per quarter",
+                    "text": "A125",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf188"
+                  },
+                  {
+                    "value": "0.15% per year with a minimum of $75.00 per quarter",
+                    "text": "A126",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf189"
+                  },
+                  {
+                    "value": "0.10% per year with a minimum of $75.00 per quarter",
+                    "text": "A127",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf18a"
+                  },
+                  {
+                    "value": "0.05% per year with a minimum of $75.00 per quarter",
+                    "text": "A128",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf18b"
+                  },
+                  {
+                    "value": "Waived Custody Fee",
+                    "text": "F100",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf18c"
+                  },
+                  {
+                    "value": "Flat Quarterly Custody Fee $ 2500",
+                    "text": "F017",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf18d"
+                  },
+                  {
+                    "value": "Flat Quarterly Custody Fee $ 1500",
+                    "text": "F108",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf18e"
+                  },
+                  {
+                    "value": "Flat Quarterly Custody Fee $ 1000",
+                    "text": "F009",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf18f"
+                  },
+                  {
+                    "value": "Flat Quarterly Custody Fee $ 500",
+                    "text": "F002",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf190"
+                  }
+                ],
+                "_id": "64850590fdc4f8d83adaf1b5",
+                "createdAt": "2023-05-20T16:25:31.438Z",
+                "updatedAt": "2023-05-20T16:25:31.438Z"
+              },
+              {
+                "code": 7,
+                "isStandarOption": false,
+                "isCurrentyClient": false,
+                "isException": true,
+                "name": "Equity and Options Commission",
+                "defaultValue": "0",
+                "hasChanged": false,
+                "exceptionOptions": [
+                  {
+                    "value": "B6",
+                    "text": "Equity:$0.03 per share, with a minimum charge of $150 per trade; Option:$0.03 per share, with a minimum charge of $150 per trade",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a41"
+                  },
+                  {
+                    "value": "C8",
+                    "text": "Equity:$0.05 per share, with a minimum charge of $100 per trade; Option:$0.05 per share, with a minimum charge of $100 per trade",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a42"
+                  },
+                  {
+                    "value": "D2",
+                    "text": "Equity:$0.05 per share, with a minimum charge of $150 per trade; Option:$0.05 per share, with a minimum charge of $150 per trade",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a43"
+                  },
+                  {
+                    "value": "D7",
+                    "text": "Equity:$0.07 per share, with a minimum charge of $150 per trade; Option:$0.05 per share, with a minimum charge of $150 per trade",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a44"
+                  },
+                  {
+                    "text": "Equity:$0.10 per share, with a minimum charge of $150 per trade; Option:$0.05 per share, with a minimum charge of $150 per trade",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a45"
+                  },
+                  {
+                    "value": "I3",
+                    "text": "Equity:100 basis points, with a minimum charge of $150 per trade; Option:100 basis points, with a minimum charge of $150 per trade",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a46"
+                  },
+                  {
+                    "value": "I8",
+                    "text": "Equity:$0.03 per share, with a minimum charge of $100 per trade; Option:$0.03 per share, with a minimum charge of $100 per trade",
+                    "visible": true,
+                    "_id": "6468f46eff51aa9d77d84a47"
+                  },
+                  {
+                    "value": "",
+                    "text": "Other",
+                    "visible": true,
+                    "_id": "64850590fdc4f8d83adaf19c"
+                  }
+                ],
+                "_id": "64850590fdc4f8d83adaf1e9",
+                "createdAt": "2023-05-20T16:25:31.438Z",
+                "updatedAt": "2023-05-20T16:25:31.438Z"
+              }
+            ],
+            "cif": "NAA0010",
+            "accountNumber": "20002089",
+            "entityCode": "SNB/284",
+            "visible": true,
+            "_id": "64850590fdc4f8d83adaf1b4"
+          }
+        ],
+        "id": "6468f46eff51aa9d77d84a56"
+      }
+    ]
+  }
+}
